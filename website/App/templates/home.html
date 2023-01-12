@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Bootstrap icons cdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css"/>
+    <title>Cyber Bootstrap</title>
+</head>
+<body>
+    <!-- ======================  Navbar ==================================================-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Cyber Bootstrap</a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="#learn" class="nav-link">What you will learn</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#questions" class="nav-link">Questions</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#instructors" class="nav-link">Instructors</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <!-- =============================== Showcase ============================================-->
+    <section class="bg-dark text-light p-5 p-lg-1 pt-lg-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1> Become a
+                        <span class="text-warning">Cyber expert</span>
+                    </h1>
+                    <p class="lead my-4">
+                        Gain control of security operations and proactively hunt for the latest threats.
+                        Extend your in-house team through expert-level support and best-of-breed technology.
+                        Improve your security programming to meet changing industry and business demands.
+                    </p>
+                    <button class="btn btn-primary btn-lg" 
+                    data-bs-toggle="modal" data-bs-target="#enroll">Start the Enrolment</button>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="cyber_image2.png" alt=""/>
+            </div>
+        </div>
+    </section>
+    <!--===================================== Newsletter ==================================-->
+    <section class="bg-primary text-light p-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+
+                <div class="input-group news-input">
+                    <input 
+                        type="text" 
+                        class="form-control" 
+                        placeholder="Enter Email" 
+                        aria-label="Enter Email" 
+                        aria-describedby="button-addon2">
+                    <button 
+                        class="btn btn-dark btn-lg" 
+                        type="button" 
+                        id="button-addon2">Button
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <!--================================ Boxes ===================================-->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Virtual
+                            </h3>
+                            <p class="card-text">
+                                Computer security, cybersecurity, or information technology security is 
+                                the protection of computer systems and networks from attack by 
+                                malicious actors that may result in unauthorized information 
+                            </p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-person-square"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Hybrid
+                            </h3>
+                            <p class="card-text">
+                                Computer security, cybersecurity, or information technology security is 
+                                the protection of computer systems and networks from attack by 
+                                malicious actors that may result in unauthorized information 
+                            </p>
+                            <a href="#" class="btn btn-dark">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-people"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                In Person
+                            </h3>
+                            <p class="card-text">
+                                Computer security, cybersecurity, or information technology security is 
+                                the protection of computer systems and networks from attack by 
+                                malicious actors that may result in unauthorized information 
+                            </p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============================= Learn Sections =====================================-->
+    <section id="learn" class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="cyber_image2.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md p-5">
+                    <h2>Learn the Fundamentals</h2>
+                    <p class="lead">
+                        Computer security, cybersecurity, or information technology security is the 
+                        protection of computer systems and networks from attack by malicious actors 
+                        that may result in unauthorized information 
+                    </p>
+                    <p>
+                        Computer security, cybersecurity, or information technology security is the 
+                        protection of computer systems and networks from attack by malicious actors 
+                        that may result in unauthorized information 
+                    </p>
+                    <a href="#" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right"></i>Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- second learning ===================================================-->
+    <section id="learn" class="p-5 bg-dark text-light">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h2>Learn AI/ML</h2>
+                    <p class="lead">
+                        Computer security, cybersecurity, or information technology security is the 
+                        protection of computer systems and networks from attack by malicious actors 
+                        that may result in unauthorized information 
+                    </p>
+                    <p>
+                        Computer security, cybersecurity, or information technology security is the 
+                        protection of computer systems and networks from attack by malicious actors 
+                        that may result in unauthorized information 
+                    </p>
+                    <a href="#" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right"></i>Read More
+                    </a>
+                </div>
+                <div class="col-md">
+                    <img src="cyber_image2.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============================ Question Accordion ================================-->
+    <section id="questions" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Questions </h2>
+            <div class="accordion accordion-flush" id="questions">
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="#">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one" aria-expanded="false" aria-controls="flush-collapseOne">
+                            How long have you been in business?
+                        </button>
+                    </h2>
+                    <div id="question-one" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                            Placeholder content for this accordion, which is intended to demonstrate 
+                            the <code>.accordion-flush</code> class. This is the first item's accordion body.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            what is you monthly gross revenue?
+                        </button>
+                    </h2>
+                    <div id="question-two" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                            Placeholder content for this accordion, which is intended to demonstrate 
+                            the <code>.accordion-flush</code> class. This is the second item's accordion body. 
+                            Let's imagine this being filled with some actual content.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three" aria-expanded="false" aria-controls="flush-collapseThree">
+                            what is the number of employees?
+                        </button>
+                    </h2>
+                    <div id="question-three" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#questions">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
+                            the <code>.accordion-flush</code> class. This is the third item's accordion body. 
+                            Nothing more exciting happening here in terms of content, but just filling up the 
+                            space to make it look, at least at first glance, a bit more representative of how 
+                            this would look in a real-world application.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-four" aria-expanded="false" aria-controls="flush-collapseThree">
+                            How do I apply?
+                        </button>
+                    </h2>
+                    <div id="question-four" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#questions">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
+                            the <code>.accordion-flush</code> class. This is the third item's accordion body. 
+                            Nothing more exciting happening here in terms of content, but just filling up the 
+                            space to make it look, at least at first glance, a bit more representative of how 
+                            this would look in a real-world application.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--================================= Instructors ===================================-->
+    <section id="instructors" class="bg-primary p-5">
+        <div class="container">
+            <h2 class="text-center text-white">Our Instructors</h2>
+            <p class="lead text-center text-white mb-5">
+                Our Instructors have 10+ years of experience.
+            </p>
+            <div class="row g-4">
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img class="img-fluid w-50 d-none d-sm-block mb-3" src="Terrence.jpg" alt="">
+                        <h3 class="card-title mb-3">Terrence Muthoka</h3>
+                        <p class="card-text">
+                            The Swahili stories posted on this website were collected in Chole Mjini, 
+                            a small island in the Mafia Archipelago, twenty miles off of the east 
+                            coast of Tanzania. In the fall of 2001, I, then a junior at the University
+                             of Wisconsin-Madison, was given the opportunity to conduct folkloric
+                              research in Tanzania. These stories, along with the many others which 
+                              will be included in book which I hope to publish in t
+                        </p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">  
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img class="rounded-circle mb-3" src="https://randomuser.me/api/portraits/men/11.jpg" alt="">
+                        <h3 class="card-title mb-3">Terrence Muthoka</h3>
+                        <p class="card-text">
+                            The Swahili stories posted on this website were collected in Chole Mjini, 
+                            a small island in the Mafia Archipelago, twenty miles off of the east 
+                            coast of Tanzania. In the fall of 2001, I, then a junior at the University
+                             of Wisconsin-Madison, was given the opportunity to conduct folkloric
+                              research in Tanzania. These stories, along with the many others which 
+                              will be included in book which I hope to publish in t
+                        </p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6"> 
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img class="img-fluid w-50 d-none d-sm-block mb-3" src="k_kwanza.jpg" alt="">
+                        <h3 class="card-title mb-3">Terrence Muthoka</h3>
+                        <p class="card-text">
+                            The Swahili stories posted on this website were collected in Chole Mjini, 
+                            a small island in the Mafia Archipelago, twenty miles off of the east 
+                            coast of Tanzania. In the fall of 2001, I, then a junior at the University
+                             of Wisconsin-Madison, was given the opportunity to conduct folkloric
+                              research in Tanzania. These stories, along with the many others which 
+                              will be included in book which I hope to publish in t
+                        </p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">  
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img class="rounded-circle mb-3" src="https://randomuser.me/api/portraits/women/11.jpg" alt="">
+                        <h3 class="card-title mb-3">Terrence Muthoka</h3>
+                        <p class="card-text">
+                            The Swahili stories posted on this website were collected in Chole Mjini, 
+                            a small island in the Mafia Archipelago, twenty miles off of the east 
+                            coast of Tanzania. In the fall of 2001, I, then a junior at the University
+                             of Wisconsin-Madison, was given the opportunity to conduct folkloric
+                              research in Tanzania. These stories, along with the many others which 
+                              will be included in book which I hope to publish in t
+                        </p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!--========================= Contact and Map =================================-->
+    <section class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Contact Info</h2>
+                    <ul class="lead list-group list-group-flush">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Building</span> 50 Main st, Boston MA
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Building</span> 50 Main st, Boston MA
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Building</span> 50 Main st, Boston MA
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Building</span> 50 Main st, Boston MA
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md">
+                    <div id="map"></div>
+                    MAP
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--========================== Footer =======================================-->
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <!-- <div class="container my-5"> -->
+        <!-- Footer -->
+        <footer class="text-center text-lg-start text-dark" style="background-color: #ECEFF1">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-between p-4 text-white" style="background-color: #21D192">
+            <!-- Left -->
+            <div class="me-5">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- End of Left -->
+            <!-- Right -->
+            <div>
+                <a href="" class="text-white me-4"><i class="bi bi-facebook"></i></a>
+                <a href="" class="text-white me-4"><i class="bi bi-twitter"></i></a>
+                <a href="" class="text-white me-4"><i class="bi bi-google"></i></a>
+                <a href="" class="text-white me-4"><i class="bi bi-instagram"></i></a>
+                <a href="" class="text-white me-4"><i class="bi bi-linkedin"></i></a>
+                <a href="" class="text-white me-4"><i class="bi bi-github"></i></a>
+            </div>
+            <!-- End of Right -->
+        </section>
+        <!-- Section: Social media -->
+    
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold">Company name</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px"/>
+                        <p>
+                            Here you can use rows and columns to organize your footer
+                            content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+        
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold">Products</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px"/>
+                        <p><a href="#!" class="text-dark">MDBootstrap</a></p>
+                        <p><a href="#!" class="text-dark">MDWordPress</a></p>
+                        <p><a href="#!" class="text-dark">BrandFlow</a></p>
+                        <p><a href="#!" class="text-dark">Bootstrap Angular</a></p>
+                    </div>
+                    <!-- Grid column -->
+        
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold">Useful links</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px"/>
+                        <p><a href="#!" class="text-dark">Your Account</a></p>
+                        <p><a href="#!" class="text-dark">Become an Affiliate</a> </p>
+                        <p><a href="#!" class="text-dark">Shipping Rates</a></p>
+                        <p><a href="#!" class="text-dark">Help</a></p>
+                    </div>
+                    <!-- Grid column -->
+        
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold">Contact</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px"/>
+                        <p><i class="bi bi-house-fill mr-3"></i> New York, NY 10012, US</p>
+                        <p><i class="bi bi-envelope-fill mr-3"></i> info@example.com</p>
+                        <p><i class="bi bi-telephone-fill mr-3"></i> + 01 234 567 88</p>
+                        <p><i class="bi bi-printer-fill mr-3"></i> + 01 234 567 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+            <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+    
+        <!-- Copyright -->
+       <!--  <div
+            class="text-center p-3"
+            style="background-color: rgba(0, 0, 0, 0.2)"
+            >
+            © 2020 Copyright:
+            <a class="text-dark" href="https://mdbootstrap.com/"
+            >MDBootstrap.com</a
+            >
+        </div> -->
+        <section class="p-5 bg-dark text-white text-center position-relative">
+            <div class="container">
+                <p class="lead"> Copyright &copy; 2021 Cyber experts</p>
+                <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i></a>
+            </div>
+        </section>
+
+        <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    <!-- </div> -->
+    <!-- End of .container -->
+
+    <!--========================= Copyright ========================================-->
+    <!-- <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead"> Copyright &copy; 2021 Cyber experts</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5"></a>
+            <i class="bi bi-arrow-up-circle h1"></i>
+        </div>
+    </footer> -->
+   <!--=============== enrollment modal ===================================-->
+   
+  <!-- Modal -->
+  <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <p class="lead"> Fill out this form to enroll</p>
+            <form>
+                <div class="mb-3">
+                    <label for="first-name" class="col-form-label">First Name:</label>
+                    <input type="text" class="form-control" name="first-name">
+                </div>
+                <div class="mb-3">
+                    <label for="last-name" class="col-form-label">Last Name:</label>
+                    <input type="text" class="form-control" name="last-name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="col-form-label">Email:</label>
+                    <input type="email" class="form-control" name="email">
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="col-form-label">Phone:</label>
+                    <input type="tel" class="form-control" name="phone">
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
+    crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
