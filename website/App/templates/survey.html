@@ -1,0 +1,68 @@
+{% extends 'home.html' %}
+{% load static %}
+
+{% block content %}
+<section class="survey">
+    <div class="start_btn">
+        <button>Start Survey</button>
+    </div>
+    <!-- info box -->
+    <div class="info_box">
+        <div class="info_title">some rules for this quiz</div>
+        <div class="info_list">
+            <div class="info">1. You will have only <span>15 seconds</span> per each question</div>
+            <div class="info">2. Once you select your answer it cannot be undone</div>
+            <div class="info">3. You can select any option once time goes off</div>
+            <div class="info">4. You can exit from the quiz while you are playing</div>
+            <div class="info">5. You will get points on the basis of your correct answers</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+    <!-- quiz box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Awesome Quiz Application</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- questions from javascript-->
+            </div>
+            <div class="option_list">
+                <!-- options from javascript-->
+            </div>
+        </section>
+        <!-- footer of quiz box-->
+        <footer_sur>
+            <div class="total_que">
+                <!-- questions count from javascript -->
+            </div>
+            <button class="next_btn">Next Que</button>
+        </footer_sur>
+    </div>
+    <!-- result box -->
+    <div class="result_box">
+        <div class="result_box">
+            <div class="icon">
+                <i class="bi bi-crown"></i>
+            </div>
+            <div class="complete_text"> You have completed the quiz</div>
+            <div class="score_text">
+                <!-- score results from javascript-->
+            </div>
+            <div class="buttons">
+                <button class="restart">Replay Quiz</button>
+                <button class="quit">Quit Quiz</button>
+            </div>
+        </div>
+    </div>
+  </section>
+{% endblock content %}
+
